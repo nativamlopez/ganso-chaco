@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>GanSo Chaco</title>
+  <meta name="description" content="Índice de Ganadería Sostenible de Bosque en condiciones de Chaco">
+  <meta name="theme-color" content="#1F5C43">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main id="app" class="app"></main>
+
+  <nav id="tabbar" class="tabbar" aria-label="Navegación principal">
+    <a href="#/" data-tab="inicio"><span data-icon="home"></span>Inicio</a>
+    <a href="#/evaluaciones" data-tab="evaluaciones"><span data-icon="list"></span>Evaluaciones</a>
+    <a href="#/nueva" class="tab-fab" aria-label="Nueva evaluación"><span data-icon="plus"></span></a>
+    <a href="#/territorio" data-tab="territorio"><span data-icon="map"></span>Territorio</a>
+    <a href="#/metodo" data-tab="metodo"><span data-icon="help"></span>Método</a>
+  </nav>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <div id="sheet" class="sheet-backdrop" hidden></div>
+
+  <script src="xlsx.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
