@@ -1,5 +1,5 @@
-﻿// Service worker: la app funciona sin conexiÃ³n en el campo.
-// Cambie VERSION al publicar cambios para que los celulares descarguen la nueva versiÃ³n.
+// Service worker: la app funciona sin conexión en el campo.
+// Cambie VERSION al publicar cambios para que los celulares descarguen la nueva versión.
 const VERSION = 'ganso-v7';
 const ASSETS = [
   './',
