@@ -1,6 +1,6 @@
 ﻿// Service worker: la app funciona sin conexiÃ³n en el campo.
 // Cambie VERSION al publicar cambios para que los celulares descarguen la nueva versiÃ³n.
-const VERSION = 'ganso-v6';
+const VERSION = 'ganso-v7';
 const ASSETS = [
   './',
   './index.html',

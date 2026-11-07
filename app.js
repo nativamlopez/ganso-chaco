@@ -388,7 +388,12 @@ function viewAcerca() {
       <a class="logo-tile logo-link" href="https://buck-di.com" target="_blank" rel="noopener">
         <img src="img/buckdi.webp" alt="Buckdi">
         <span>buck-di.com ${ic('external')}</span>
-      </a>`,
+      </a>
+
+      <a class="card row mt" href="https://nativamlopez.github.io/ganso-chaco/privacidad.html" target="_blank" rel="noopener" style="padding:16px">
+        <span class="chip-ico">${ic('info')}</span>
+        <div class="grow"><div class="t">Política de privacidad</div><div class="s">La app no recopila ni comparte datos</div></div>
+        <span class="chev">${ic('external')}</span></a>`,
   };
 }
 
